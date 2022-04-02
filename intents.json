@@ -1,0 +1,29 @@
+{ "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello","hey","hi","good day","greetings","what's up?","how is it going?"],
+      "responses": ["Hello Boss!","Hey","Hello,what can I do for you?"]
+    },
+    {
+      "tag": "create_note",
+      "patterns": ["cya","See you later","Goodbye","I am leaving","Have a good day","bye","cao","see ya"],
+      "responses": [""]
+    },
+    {
+      "tag": "add_todo",
+      "patterns": ["how old","how old is kachi","what is your age","how old are you","age?"],
+      "responses": [""]
+    },
+    {
+      "tag": "show_todos",
+      "patterns": ["what is your name","what should i call you","whats your name","who are you","can you tell me who you are"],
+      "responses": [""]
+    },
+    {
+      "tag": "exit",
+      "patterns": ["Bye","Stop", "quit", "I want to quit", "Goodbye", "I want to exit", "I have to go"],
+      "responses": [""]
+    }
+  ]
+  }
+
